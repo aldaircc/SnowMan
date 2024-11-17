@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		05CA8C322CEAB7410092A064 /* SnowManAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8C312CEAB7410092A064 /* SnowManAppApp.swift */; };
+		05CA8C342CEAB7410092A064 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8C332CEAB7410092A064 /* ContentView.swift */; };
+		05CA8C362CEAB7420092A064 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CA8C352CEAB7420092A064 /* Assets.xcassets */; };
+		05CA8C392CEAB7420092A064 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05CA8C382CEAB7420092A064 /* Preview Assets.xcassets */; };
+		05CA8C442CEAB7420092A064 /* SnowManAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8C432CEAB7420092A064 /* SnowManAppTests.swift */; };
+		05CA8C4E2CEAB7420092A064 /* SnowManAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8C4D2CEAB7420092A064 /* SnowManAppUITests.swift */; };
+		05CA8C502CEAB7420092A064 /* SnowManAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05CA8C4F2CEAB7420092A064 /* SnowManAppUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05CA8C402CEAB7420092A064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CA8C262CEAB7410092A064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CA8C2D2CEAB7410092A064;
+			remoteInfo = SnowManApp;
+		};
+		05CA8C4A2CEAB7420092A064 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05CA8C262CEAB7410092A064 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05CA8C2D2CEAB7410092A064;
+			remoteInfo = SnowManApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05CA8C2E2CEAB7410092A064 /* SnowManApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnowManApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CA8C312CEAB7410092A064 /* SnowManAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowManAppApp.swift; sourceTree = "<group>"; };
+		05CA8C332CEAB7410092A064 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		05CA8C352CEAB7420092A064 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		05CA8C382CEAB7420092A064 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		05CA8C3A2CEAB7420092A064 /* SnowManApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SnowManApp.entitlements; sourceTree = "<group>"; };
+		05CA8C3F2CEAB7420092A064 /* SnowManAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowManAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CA8C432CEAB7420092A064 /* SnowManAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowManAppTests.swift; sourceTree = "<group>"; };
+		05CA8C492CEAB7420092A064 /* SnowManAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowManAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05CA8C4D2CEAB7420092A064 /* SnowManAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowManAppUITests.swift; sourceTree = "<group>"; };
+		05CA8C4F2CEAB7420092A064 /* SnowManAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowManAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05CA8C2B2CEAB7410092A064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CA8C3C2CEAB7420092A064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CA8C462CEAB7420092A064 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05CA8C252CEAB7410092A064 = {
+			isa = PBXGroup;
+			children = (
+				05CA8C302CEAB7410092A064 /* SnowManApp */,
+				05CA8C422CEAB7420092A064 /* SnowManAppTests */,
+				05CA8C4C2CEAB7420092A064 /* SnowManAppUITests */,
+				05CA8C2F2CEAB7410092A064 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		05CA8C2F2CEAB7410092A064 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05CA8C2E2CEAB7410092A064 /* SnowManApp.app */,
+				05CA8C3F2CEAB7420092A064 /* SnowManAppTests.xctest */,
+				05CA8C492CEAB7420092A064 /* SnowManAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05CA8C302CEAB7410092A064 /* SnowManApp */ = {
+			isa = PBXGroup;
+			children = (
+				05CA8C312CEAB7410092A064 /* SnowManAppApp.swift */,
+				05CA8C332CEAB7410092A064 /* ContentView.swift */,
+				05CA8C352CEAB7420092A064 /* Assets.xcassets */,
+				05CA8C3A2CEAB7420092A064 /* SnowManApp.entitlements */,
+				05CA8C372CEAB7420092A064 /* Preview Content */,
+			);
+			path = SnowManApp;
+			sourceTree = "<group>";
+		};
+		05CA8C372CEAB7420092A064 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				05CA8C382CEAB7420092A064 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		05CA8C422CEAB7420092A064 /* SnowManAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				05CA8C432CEAB7420092A064 /* SnowManAppTests.swift */,
+			);
+			path = SnowManAppTests;
+			sourceTree = "<group>";
+		};
+		05CA8C4C2CEAB7420092A064 /* SnowManAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				05CA8C4D2CEAB7420092A064 /* SnowManAppUITests.swift */,
+				05CA8C4F2CEAB7420092A064 /* SnowManAppUITestsLaunchTests.swift */,
+			);
+			path = SnowManAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05CA8C2D2CEAB7410092A064 /* SnowManApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CA8C532CEAB7420092A064 /* Build configuration list for PBXNativeTarget "SnowManApp" */;
+			buildPhases = (
+				05CA8C2A2CEAB7410092A064 /* Sources */,
+				05CA8C2B2CEAB7410092A064 /* Frameworks */,
+				05CA8C2C2CEAB7410092A064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnowManApp;
+			productName = SnowManApp;
+			productReference = 05CA8C2E2CEAB7410092A064 /* SnowManApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05CA8C3E2CEAB7420092A064 /* SnowManAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CA8C562CEAB7420092A064 /* Build configuration list for PBXNativeTarget "SnowManAppTests" */;
+			buildPhases = (
+				05CA8C3B2CEAB7420092A064 /* Sources */,
+				05CA8C3C2CEAB7420092A064 /* Frameworks */,
+				05CA8C3D2CEAB7420092A064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CA8C412CEAB7420092A064 /* PBXTargetDependency */,
+			);
+			name = SnowManAppTests;
+			productName = SnowManAppTests;
+			productReference = 05CA8C3F2CEAB7420092A064 /* SnowManAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		05CA8C482CEAB7420092A064 /* SnowManAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05CA8C592CEAB7420092A064 /* Build configuration list for PBXNativeTarget "SnowManAppUITests" */;
+			buildPhases = (
+				05CA8C452CEAB7420092A064 /* Sources */,
+				05CA8C462CEAB7420092A064 /* Frameworks */,
+				05CA8C472CEAB7420092A064 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05CA8C4B2CEAB7420092A064 /* PBXTargetDependency */,
+			);
+			name = SnowManAppUITests;
+			productName = SnowManAppUITests;
+			productReference = 05CA8C492CEAB7420092A064 /* SnowManAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05CA8C262CEAB7410092A064 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					05CA8C2D2CEAB7410092A064 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					05CA8C3E2CEAB7420092A064 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 05CA8C2D2CEAB7410092A064;
+					};
+					05CA8C482CEAB7420092A064 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = 05CA8C2D2CEAB7410092A064;
+					};
+				};
+			};
+			buildConfigurationList = 05CA8C292CEAB7410092A064 /* Build configuration list for PBXProject "SnowManApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05CA8C252CEAB7410092A064;
+			productRefGroup = 05CA8C2F2CEAB7410092A064 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05CA8C2D2CEAB7410092A064 /* SnowManApp */,
+				05CA8C3E2CEAB7420092A064 /* SnowManAppTests */,
+				05CA8C482CEAB7420092A064 /* SnowManAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05CA8C2C2CEAB7410092A064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CA8C392CEAB7420092A064 /* Preview Assets.xcassets in Resources */,
+				05CA8C362CEAB7420092A064 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CA8C3D2CEAB7420092A064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CA8C472CEAB7420092A064 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05CA8C2A2CEAB7410092A064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CA8C342CEAB7410092A064 /* ContentView.swift in Sources */,
+				05CA8C322CEAB7410092A064 /* SnowManAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CA8C3B2CEAB7420092A064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CA8C442CEAB7420092A064 /* SnowManAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05CA8C452CEAB7420092A064 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05CA8C502CEAB7420092A064 /* SnowManAppUITestsLaunchTests.swift in Sources */,
+				05CA8C4E2CEAB7420092A064 /* SnowManAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05CA8C412CEAB7420092A064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CA8C2D2CEAB7410092A064 /* SnowManApp */;
+			targetProxy = 05CA8C402CEAB7420092A064 /* PBXContainerItemProxy */;
+		};
+		05CA8C4B2CEAB7420092A064 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05CA8C2D2CEAB7410092A064 /* SnowManApp */;
+			targetProxy = 05CA8C4A2CEAB7420092A064 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05CA8C512CEAB7420092A064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		05CA8C522CEAB7420092A064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		05CA8C542CEAB7420092A064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnowManApp/SnowManApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowManApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 24LLP5N8MH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acosetito.dev.SnowManApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		05CA8C552CEAB7420092A064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SnowManApp/SnowManApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SnowManApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 24LLP5N8MH;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acosetito.dev.SnowManApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		05CA8C572CEAB7420092A064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24LLP5N8MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acosetito.dev.SnowManAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowManApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowManApp";
+			};
+			name = Debug;
+		};
+		05CA8C582CEAB7420092A064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24LLP5N8MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acosetito.dev.SnowManAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnowManApp.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SnowManApp";
+			};
+			name = Release;
+		};
+		05CA8C5A2CEAB7420092A064 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24LLP5N8MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acosetito.dev.SnowManAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SnowManApp;
+			};
+			name = Debug;
+		};
+		05CA8C5B2CEAB7420092A064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 24LLP5N8MH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.acosetito.dev.SnowManAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SnowManApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05CA8C292CEAB7410092A064 /* Build configuration list for PBXProject "SnowManApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CA8C512CEAB7420092A064 /* Debug */,
+				05CA8C522CEAB7420092A064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CA8C532CEAB7420092A064 /* Build configuration list for PBXNativeTarget "SnowManApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CA8C542CEAB7420092A064 /* Debug */,
+				05CA8C552CEAB7420092A064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CA8C562CEAB7420092A064 /* Build configuration list for PBXNativeTarget "SnowManAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CA8C572CEAB7420092A064 /* Debug */,
+				05CA8C582CEAB7420092A064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05CA8C592CEAB7420092A064 /* Build configuration list for PBXNativeTarget "SnowManAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CA8C5A2CEAB7420092A064 /* Debug */,
+				05CA8C5B2CEAB7420092A064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05CA8C262CEAB7410092A064 /* Project object */;
+}
